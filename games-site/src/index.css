@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+:root { --radius: 14px; }
+
+.card {
+  @apply rounded-2xl shadow-sm border border-neutral-200 bg-white;
+}
