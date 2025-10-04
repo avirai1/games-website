@@ -1,4 +1,4 @@
-import { games } from '../data/games'
+import { games } from '../data/games.ts'
 import { GameCard } from '../components/GameCard'
 
 export default function Home() {

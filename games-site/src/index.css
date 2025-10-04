@@ -5,3 +5,21 @@
 .card {
   @apply rounded-2xl shadow-sm border border-neutral-200 bg-white;
 }
+
+/* --- Wordle tile animations --- */
+@keyframes wordle-flip {
+  0%   { transform: rotateX(0deg); }
+  49%  { transform: rotateX(90deg); }
+  51%  { transform: rotateX(90deg); } /* color swap happens around here visually */
+  100% { transform: rotateX(0deg); }
+}
+
+.wordle-tile {
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  will-change: transform;
+}
+
+.wordle-flip {
+  animation: wordle-flip 600ms ease forwards;
+}

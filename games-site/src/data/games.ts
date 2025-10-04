@@ -2,11 +2,20 @@ import type { Game } from '../components/GameCard'
 
 export const games: Game[] = [
   {
+    slug: 'wordle',
+    title: 'Wordle',
+    type: 'daily',
+    description: 'Guess the 5-letter word in 6 tries. Letters light up to guide you.',
+    status: 'available',
+    players: '1 player',
+    estTime: '2–5 min'
+  },
+  {
     slug: 'wordlink',
     title: 'WordLink',
     type: 'daily',
     description: 'A crisp, once-a-day word puzzle. Share streaks with friends.',
-    status: 'coming_soon',
+    status: 'available',
     players: '1 player',
     estTime: '2–5 min'
   },
