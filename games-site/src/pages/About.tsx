@@ -4,8 +4,7 @@ export default function About() {
       <h1 className="text-2xl font-semibold mb-4">About Games Hub</h1>
       <div className="space-y-4 text-neutral-700">
         <p>
-          This hub is designed to make it dead simple to add new games over time.
-          Add metadata to <code className="px-1 py-0.5 rounded bg-neutral-100">src/data/games.ts</code> and your UI updates automatically.
+          This is a hub for different types of daily, party, and strategy games. Games are continously being added.
         </p>
         <ul className="list-disc pl-6 space-y-1">
           <li>Daily puzzles get their own route under <code>/daily/:slug</code>.</li>

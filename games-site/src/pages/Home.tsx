@@ -12,9 +12,6 @@ export default function Home() {
         <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-neutral-900 mb-3">
           All your games, one hub
         </h1>
-        <p className="text-neutral-600 max-w-2xl mx-auto">
-          Start with a clean UI now. Add games incrementally without touching layout, routing, or styles.
-        </p>
       </section>
 
       <Section title="Daily Puzzles" items={daily} />

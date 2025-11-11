@@ -11,7 +11,7 @@ export function Navbar() {
         <nav className="flex items-center gap-6 text-sm">
           <NavLink to="/" className={({isActive}) => isActive ? 'text-brand-700' : 'text-neutral-600 hover:text-neutral-900'}>Home</NavLink>
           <NavLink to="/about" className={({isActive}) => isActive ? 'text-brand-700' : 'text-neutral-600 hover:text-neutral-900'}>About</NavLink>
-          <a href="https://github.com/" target="_blank" rel="noreferrer" className="text-neutral-600 hover:text-neutral-900">GitHub</a>
+          <a href="https://github.com/avirai1/games-website" target="_blank" rel="noreferrer" className="text-neutral-600 hover:text-neutral-900">GitHub</a>
         </nav>
       </div>
     </header>

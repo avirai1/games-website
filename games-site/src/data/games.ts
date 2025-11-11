@@ -8,7 +8,7 @@ export const games: Game[] = [
     description: 'Guess the 5-letter word in 6 tries. Letters light up to guide you.',
     status: 'available',
     players: '1 player',
-    estTime: '2–5 min'
+    estTime: '2–5 min',
   },
   {
     slug: 'wordlink',
@@ -17,7 +17,16 @@ export const games: Game[] = [
     description: 'A crisp, once-a-day word puzzle. Share streaks with friends.',
     status: 'available',
     players: '1 player',
-    estTime: '2–5 min'
+    estTime: '2–5 min',
+  },
+  {
+    slug: 'word-reveal-battle',
+    title: 'Word Reveal Battle',
+    type: 'party',
+    description: 'Two teams reveal clue words and race to guess the answer.',
+    status: 'available',
+    players: '2+ players, 2 teams',
+    estTime: '5–15 min',
   },
   {
     slug: 'cipher-sprint',
@@ -26,7 +35,7 @@ export const games: Game[] = [
     description: 'Crack the code under a timer. Great for warm-ups.',
     status: 'coming_soon',
     players: '1 player',
-    estTime: '3–8 min'
+    estTime: '3–8 min',
   },
   {
     slug: 'guess-who',
@@ -35,6 +44,6 @@ export const games: Game[] = [
     description: 'A fast party round where the table guesses the secret prompt.',
     status: 'coming_soon',
     players: '3–10 players',
-    estTime: '5–15 min'
-  }
+    estTime: '5–15 min',
+  },
 ]
